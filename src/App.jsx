@@ -1,24 +1,28 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import { Home, About, Contact } from './pages';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import PageBottom from './components/PageBottom';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
-const App = () => {
+function App() {
   return (
-    <main className='bg-slate-300/20'>
-      <Router>
+    <Router>
+      <div id="root">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/contact" element={<Contact />}/>
-        </Routes>
-      </Router>
-      <div className='absolute bottom-28 left-0 right-0 z-10 flex items-center justify-center'>
-        <PageBottom />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-    </main>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
+

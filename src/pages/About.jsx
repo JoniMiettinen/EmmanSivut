@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
-    <section className='w.full h-screen relative'>
-      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        Jotain juttuja
-      </div>
-    </section>
-  )
-}
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold">About Page</h1>
+      <p>Learn more about us on this page.</p>
+    </div>
+  );
+};
 
-export default About
+export default About;
