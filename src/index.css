@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 html, body {
-  @apply font-serif;
+  @apply font-sans;
   height: 100%;
   margin: 0;
+  font-family: '', ;
+  font-weight: 100 !important;
 }
 
 #root {

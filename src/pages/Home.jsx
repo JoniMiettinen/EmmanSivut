@@ -6,8 +6,12 @@ const Home = () => {
     <div>
       <div className="container mx-auto p-6 flex items-center justify-center">
         <div className="text-center">
-          {/* <h1 className="text-2xl text-black">AJANVARAUS</h1> */}
+        <a href="https://linktr.ee/Beautyroombyemma"> 
+          <p className="text-xl bg-red-300 text-black py-2 px-4 rounded-full hover:bg-red-950 hover:text-white cursor-pointer"> AJANVARAUS </p>
+        </a> 
+        {/* <a href="https://timma.fi/yritys/beautyroom-by-emma "> 
           <p className="text-2xl bg-red-300 text-black py-2 px-4 rounded-full hover:bg-red-950 hover:text-white cursor-pointer"> AJANVARAUS </p>
+        </a>  */}
         </div>
       </div>
       <div className="container mx-auto p-6">
