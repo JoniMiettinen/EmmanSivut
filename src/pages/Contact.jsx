@@ -18,7 +18,7 @@ const Contact = () => {
         <h2 className="text-xl mb-2 mt-6">MAKSUTAVAT</h2>
         <p>Meillä toimii käteis- ja korttimaksun lisäksi lahjakortit</p>
         <h1 className="text-2xl mt-16 mb-6">SAAPUMINEN</h1>
-        <p className='text-justify w-full max-w-2xl mx-auto'>
+        <p className='text-justify w-full max-w-3xl mx-auto'>
           Kauneushoitola sijaitsee erinomaisella sijainnilla Siilinjärven keskustassa osoitteessa Asematie 7,
           liike on alapihan puolella (liikkeen ikkunat ovat rautatieseman suuntaan).
           Talon pihassa on asiakkaille kiekotonta & ilmaista parkkitilaa sekä Asematiellä on myös ilmaisia kadunvarsi paikkoja.
