@@ -25,20 +25,20 @@ const Home = () => {
             Haluamme tarjota asiakkaalle lempeän levähdyshetken hoitojemme parissa.
             Pyrimme olemaan matalankynnyksen hoitola joten olet meille aina tervetullut juuri sellaisena kuin olet.
           </p>
-          <div className="flex space-x-4 mb-16 text-justify w-full max-w-3xl mx-auto">
-            <div className="flex flex-col items-center space-y-2 text-sm">
+          <div className="flex flex-col md:flex-row md:space-x-4 mb-16 text-justify w-full max-w-3xl mx-auto">
+            <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
               <img src={makeup} alt="makeup" className="h-40 w-50 rounded-full" />
               <ul className="list-none">
                 <li>Meikkaukset</li>
               </ul>
             </div>
-            <div className="flex flex-col items-center space-y-2 text-sm">
+            <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
               <img src={sugar} alt="sugar" className="h-40 w-50 rounded-full" />
               <ul className="list-none">
                 <li>Sokeroinnit</li>
               </ul>
             </div>
-            <div className="flex flex-col items-center space-y-2 text-sm">
+            <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
               <img src={manicure} alt="manicure" className="h-40 w-50 rounded-full" />
               <ul className="list-none">
                 <li>Geelikynnet,</li>
@@ -47,7 +47,7 @@ const Home = () => {
                 <li>Manikyyrit</li>
               </ul>
             </div>
-            <div className="flex flex-col items-center space-y-2 text-sm">
+            <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
               <img src={lash} alt="lash" className="h-40 w-50 rounded-full" />
               <ul className="list-none">
                 <li>Ripsienpidennykset</li>
