@@ -1,4 +1,5 @@
 import React from 'react';
+import sisustus from '../assets/sisustus.jpg';
 
 const Contact = () => {
   return (
@@ -19,7 +20,7 @@ const Contact = () => {
         <h2 className="text-xl mb-2 mt-6">MAKSUTAVAT</h2>
         <p>Meillä toimii käteis- ja korttimaksun lisäksi lahjakortit</p>
         <h1 className="text-2xl mt-16 mb-6">SAAPUMINEN</h1>
-        <p className='text-justify w-full max-w-3xl mx-auto'>
+        <p className='text-justify w-full max-w-3xl mx-auto mb-12'>
           Kauneushoitola sijaitsee erinomaisella sijainnilla Siilinjärven keskustassa osoitteessa Asematie 7,
           liike on alapihan puolella (liikkeen ikkunat ovat rautatieseman suuntaan).
           Talon pihassa on asiakkaille kiekotonta & ilmaista parkkitilaa sekä Asematiellä on myös ilmaisia kadunvarsi paikkoja.
@@ -29,6 +30,9 @@ const Contact = () => {
           Hoitojen aikana ovi on usein lukossa varmentaakseni rauhallisen ja keskeytymättömän ajan asiakkaalle.
           Voit varata nettiajanvarauksesta tai puhelimitse ostos- tai konsultaatio ajan, jolloin palvelen sinua yksilöllisesti.
         </p>
+        <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
+          <img src={sisustus} alt="sisustus" className="h-72 w-72 object-cover" />
+        </div>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 html, body {
+  scroll-behavior: smooth;
   @apply font-sans;
   height: 100%;
   margin: 0;
