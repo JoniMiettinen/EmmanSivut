@@ -18,6 +18,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4">
           <Link to="/" className="text-black">ETUSIVU</Link>
           <Link to="/about" className="text-black">HINNASTO</Link>
+          <Link to="/bdr" className="text-black">BDR</Link>
           <Link to="/contact" className="text-black">YHTEYSTIEDOT</Link>
         </div>
         <div className="md:hidden">
@@ -45,7 +46,8 @@ const Navbar = () => {
           </div>
           <Link to="/" className="block text-black text-2xl py-5 px-4 border-b border-gray-200" onClick={toggleMenu}>ETUSIVU</Link>
           <Link to="/about" className="block text-black text-2xl py-5 px-4 border-b border-gray-200" onClick={toggleMenu}>HINNASTO</Link>
-          <Link to="/contact" className="block text-black text-2xl py-5 px-4" onClick={toggleMenu}>YHTEYSTIEDOT</Link>
+          <Link to="/bdr" className="block text-black text-2xl py-5 px-4 border-b border-gray-200" onClick={toggleMenu}>BDR</Link>
+          <Link to="/contact" className="block text-black text-2xl py-5 px-4 border-b border-gray-200" onClick={toggleMenu}>YHTEYSTIEDOT</Link>
         </div>
       )}
     </nav>

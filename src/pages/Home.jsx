@@ -4,6 +4,8 @@ import hoidot from '../assets/hoidot.jpg';
 import meikkaukset from '../assets/meikkaukset.jpg';
 import kynnet from '../assets/kynnet.jpg';
 import ripset from '../assets/ripset.jpg';
+import BDR1 from '../assets/BDR1.jpg';
+import jalkahoito from '../assets/jalkahoito.jpg';
 import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
@@ -27,7 +29,7 @@ const Home = () => {
             Haluamme tarjota asiakkaalle lempeän levähdyshetken hoitojemme parissa.
             Pyrimme olemaan matalankynnyksen hoitola joten olet meille aina tervetullut juuri sellaisena kuin olet.
           </p>
-          <div className="flex flex-col md:flex-row md:space-x-4 mb-16 text-justify w-full max-w-3xl mx-auto">
+          <div className="flex flex-wrap justify-center md:justify-between mb-16 text-justify w-full max-w-6xl mx-auto">
             <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
               <HashLink to="/about#meikkaukset">
                 <img src={meikkaukset} alt="meikkaukset" className="h-48 w-48 rounded-full object-cover" />
@@ -61,6 +63,22 @@ const Home = () => {
               </HashLink>
               <ul className="list-none">
                 <li>Ripsienpidennykset</li>
+              </ul>
+            </div>
+            <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
+              <HashLink to="/about#kasvot">
+                <img src={BDR1} alt="Kasvohoidot" className="h-48 w-48 rounded-full object-cover cursor-pointer" />
+              </HashLink>
+              <ul className="list-none">
+                <li>Kasvohoidot</li>
+              </ul>
+            </div>
+            <div className="flex flex-col items-center space-y-2 text-sm mb-4 md:mb-0">
+              <HashLink to="/about#jalat">
+                <img src={jalkahoito} alt="Jalkahoidot" className="h-48 w-48 rounded-full object-cover cursor-pointer" />
+              </HashLink>
+              <ul className="list-none">
+                <li>Jalkahoidot</li>
               </ul>
             </div>
           </div>

@@ -208,6 +208,67 @@ const About = () => {
               <span>Ripsienpidennysten poisto 30min</span>
               <span>21€</span>
             </li>
+          </ul>
+        </div>
+        <h2 id="kasvot" className="text-xl p-6">BDR-MEDICAL BEAUTY KASVOHOIDOT</h2>
+        <div className="p-2">
+          <ul className="list-none text-left">
+            <li className="flex justify-between">
+              <span>Pikakasvohoito BDR 45min</span>
+              <span>68€</span>
+            </li>
+            <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
+              Sis. Alkupuhdistus, AHA-happpokuorinta, naamio, loppuvoide
+            </li>
+            <li className="flex justify-between">
+              <span>Peruskasvohoito BDR 90min</span>
+              <span>89€</span>
+            </li>
+            <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
+              Sis. Alkupuhdistus, kaksoiskuorinta (happo/entsyymi),
+              höyrytys, kevyt ihonpuhdistus tarvittaessa, <br /> hyaluronihapposeerumi,
+              täsmähoitoseerumi, rentouttava hieronta sekä yksilöllinen erikoisnaamio
+            </li>
+            <li className="flex justify-between">
+              <span>Mikroneulaus BDR 90min</span>
+              <span>189€</span>
+            </li>
+            <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
+              Sis. Alkupuhdistus, happokuorinta, BDR Nanohionta, BDR Skin Styler mikroneulaus,<br />
+              tehoseerumi, erikoisnaamio, hoitovoiteet. Hoito tehdään
+              kasvoille, kaulalle ja decolteelle.
+            </li>
+          </ul>
+        </div>
+        <h2 id="jalat" className="text-xl p-6">JALKAHOIDOT</h2>
+        <div className="p-2">
+          <ul className="list-none text-left">
+            <li className="flex justify-between">
+              <span>Perusjalkahoito</span>
+              <span>68€</span>
+            </li>
+            <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
+              Sis. Jalkakylpy, kynsien leikkaus sekä mahdollinen ohennus,
+              kynsinauhojen siistiminen, kovettumien poisto ja hionta, jalkavoide ja
+              kevyt hieronta jaloille
+            </li>
+            <li className="flex justify-between">
+              <span>Hemmotteleva SPA-jalkahoito</span>
+              <span>85€</span>
+            </li>
+            <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
+              Sis. Jalkakylpy, hoitava kuorinta jaloille ja säärille, kovettumien poisto ja hionta,
+              kynsien leikkaus ja mahdollinen ohennus, kynsinauhojen siistiminen, naamio jaloille ja säärille sekä rentouttava hieronta.
+              Halutessa hoitoon sisältyy normaali kynsien lakkaus
+            </li>
+            <li className="flex justify-between">
+              <span>Varpaankynsien geelilakkaus uusi tai huolto</span>
+              <span>28€</span>
+            </li>
+            <li className="flex justify-between">
+              <span>Varpaankynsien geelilakkaus jalkahoidon yhteydessä</span>
+              <span>+12€</span>
+            </li>
             <li className="flex justify-between mt-4 text-xl mb-12">
               <span>Eläkeläis- sekä opiskelija-alennus 10% palveluiden hinnoista. Alennusta ei pysty yhdistämään muihin tarjouksiin.</span>
             </li>
