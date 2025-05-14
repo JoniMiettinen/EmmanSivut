@@ -236,7 +236,7 @@ const About = () => {
             <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
               Sis. Alkupuhdistus, happokuorinta, BDR Nanohionta, BDR Skin Styler mikroneulaus,<br />
               tehoseerumi, erikoisnaamio, hoitovoiteet. Hoito tehdään
-              kasvoille, kaulalle ja decolteelle.
+              kasvoille, kaulalle ja decolteelle
             </li>
           </ul>
         </div>
@@ -244,30 +244,32 @@ const About = () => {
         <div className="p-2">
           <ul className="list-none text-left">
             <li className="flex justify-between">
-              <span>Perusjalkahoito</span>
+              <span>Jalkahoito</span>
               <span>68€</span>
             </li>
             <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
-              Sis. Jalkakylpy, kynsien leikkaus sekä mahdollinen ohennus,
-              kynsinauhojen siistiminen, kovettumien poisto ja hionta, jalkavoide ja
-              kevyt hieronta jaloille
+              Sis. Rentouttava jalkakylpy, kovettumien poisto ja hionta, kynsien leikkaus, kynsinauhojen siistiminen, jalkavoide
+              sekä kevyt hieronta jaloille
             </li>
             <li className="flex justify-between">
-              <span>Hemmotteleva SPA-jalkahoito</span>
+              <span>SPA-jalkahoito</span>
               <span>85€</span>
             </li>
             <li className="flex pl-6 before:content-['•'] before:mr-2 before:text-gray-600">
-              Sis. Jalkakylpy, hoitava kuorinta jaloille ja säärille, kovettumien poisto ja hionta,
-              kynsien leikkaus ja mahdollinen ohennus, kynsinauhojen siistiminen, naamio jaloille ja säärille sekä rentouttava hieronta.
-              Halutessa hoitoon sisältyy normaali kynsien lakkaus
+              Sis. Rentouttava jalkakylpy, hoitava kuorinta jaloille ja säärille, kovettumien poisto ja hionta,
+              kynsien leikkaus ja mahdollinen ohennus, kynsinauhojen siistiminen, rentouttava hieronta säärille ja jaloille sekä
+              tehokosteuttava jalkanaamio
             </li>
             <li className="flex justify-between">
-              <span>Varpaankynsien geelilakkaus uusi tai huolto</span>
-              <span>28€</span>
+              <span>Varpaankynsien uusi geelilakkaus</span>
+              <span>40€</span>
             </li>
             <li className="flex justify-between">
-              <span>Varpaankynsien geelilakkaus jalkahoidon yhteydessä</span>
-              <span>+12€</span>
+              <span>Varpaankynsien geelilakkaus huolto</span>
+              <span>42€</span>
+            </li>
+            <li className="flex pl-6 before:content-['-'] before:mr-2 before:text-gray-600">
+              Jalkahoidon yhteydessä lisäpalveluna geelilakkaus 29€ & huolto 30€. Normaali lakkaus +6€
             </li>
             <li className="flex justify-between mt-4 text-xl mb-12">
               <span>Eläkeläis- sekä opiskelija-alennus 10% palveluiden hinnoista. Alennusta ei pysty yhdistämään muihin tarjouksiin.</span>
